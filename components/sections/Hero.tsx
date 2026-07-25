@@ -50,7 +50,7 @@ export default function Hero() {
           >
             Nous concevons des applications iOS et Android modernes,
             performantes et intégrant les dernières technologies
-            d'intelligence artificielle.
+            d\'intelligence artificielle.
           </motion.p>
 
           <motion.div
