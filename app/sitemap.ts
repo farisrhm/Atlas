@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://votre-domaine.com";
+  const baseUrl = "https://atlas-company.netlify.app";
 
   return [
     {

@@ -107,7 +107,7 @@ export const projects: Project[] = [
     title: "FitTrack",
     description:
       "Application de coaching sportif avec suivi personnalisé et recommandations IA.",
-    image: "/images/project-fittrack.jpg",
+    image: "https://placehold.co/600x400/1a1a2e/e94560?text=FitTrack",
     technologies: ["Flutter", "Firebase", "OpenAI API"],
     results: ["15K+ téléchargements", "4.8★ sur les stores", "MVP livré en 6 semaines"],
     category: "Santé & Sport",
@@ -117,7 +117,7 @@ export const projects: Project[] = [
     title: "MarketFlow",
     description:
       "Marketplace B2B connectant fournisseurs et commerçants locaux.",
-    image: "/images/project-marketflow.jpg",
+    image: "https://placehold.co/600x400/16213e/0f9b8e?text=MarketFlow",
     technologies: ["Flutter", "Node.js", "Stripe"],
     results: ["200+ vendeurs actifs", "+35% de ventes en 3 mois", "Paiement intégré"],
     category: "Marketplace",
@@ -127,7 +127,7 @@ export const projects: Project[] = [
     title: "Connectify",
     description:
       "Réseau social professionnel pour freelances avec messagerie temps réel.",
-    image: "/images/project-connectify.jpg",
+    image: "https://placehold.co/600x400/0f3460/e94560?text=Connectify",
     technologies: ["Flutter", "Supabase", "WebSocket"],
     results: ["10K utilisateurs actifs", "Temps réel fluide", "Modération automatisée"],
     category: "Réseau social",
@@ -142,7 +142,7 @@ export const testimonials: Testimonial[] = [
     company: "FitTrack",
     content:
       "Une équipe réactive et experte. Notre application a été livrée dans les délais avec une qualité irréprochable. L'intégration IA a fait toute la différence.",
-    avatar: "/images/avatar-1.jpg",
+    avatar: "https://placehold.co/100x100/1a1a2e/ffffff?text=MD",
   },
   {
     id: "2",
@@ -151,7 +151,7 @@ export const testimonials: Testimonial[] = [
     company: "MarketFlow",
     content:
       "Un accompagnement de A à Z, du cadrage à la publication. Ils ont su comprendre nos enjeux business et proposer les bonnes solutions techniques.",
-    avatar: "/images/avatar-2.jpg",
+    avatar: "https://placehold.co/100x100/16213e/ffffff?text=TL",
   },
   {
     id: "3",
@@ -160,7 +160,7 @@ export const testimonials: Testimonial[] = [
     company: "Connectify",
     content:
       "Le meilleur choix que nous ayons fait pour notre app. Code propre, communication transparente, résultat au-delà de nos attentes.",
-    avatar: "/images/avatar-3.jpg",
+    avatar: "https://placehold.co/100x100/0f3460/ffffff?text=SM",
   },
 ];
 

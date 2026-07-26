@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://votre-domaine.com/sitemap.xml",
+    sitemap: "https://atlas-company.netlify.app/",
   };
 }
