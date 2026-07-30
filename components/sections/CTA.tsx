@@ -32,12 +32,12 @@ export default function CTA() {
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button href="mailto:contact@votre-domaine.com">
+            <Button href="mailto:contact@atlas.example?subject=Contact%20-%20Site%20Atlas">
               <Mail size={16} />
               Contactez-nous
               <ArrowRight size={16} />
             </Button>
-            <Button href="tel:+33600000000" variant="secondary">
+            <Button href="tel:+33123456789" variant="secondary">
               Appelez-nous
             </Button>
           </div>

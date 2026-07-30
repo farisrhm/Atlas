@@ -34,7 +34,7 @@ export default function Header() {
     >
       <Container className="flex h-18 items-center justify-between py-4">
         <Link href="/" className="text-lg font-semibold text-white">
-          Flutter<span className="text-primary-light">AI</span>
+          Atlas<span className="text-primary-light">.dev</span>
         </Link>
 
         <nav

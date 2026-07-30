@@ -3,9 +3,9 @@ import { Linkedin, Github, Mail } from "lucide-react";
 import Container from "@/components/ui/Container";
 
 const SOCIAL_LINKS = [
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Mail, href: "mailto:contact@votre-domaine.com", label: "Email" },
+  { icon: Linkedin, href: "https://linkedin.com/company/atlas-dev", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/atlas-dev", label: "GitHub" },
+  { icon: Mail, href: "mailto:contact@atlas.example", label: "Email" },
 ];
 
 const FOOTER_LINKS = [
@@ -21,10 +21,10 @@ export default function Footer() {
       <Container className="flex flex-col items-center justify-between gap-6 py-12 sm:flex-row">
         <div>
           <Link href="/" className="text-lg font-semibold text-white">
-            Flutter<span className="text-primary-light">AI</span>
+            Atlas<span className="text-primary-light">.dev</span>
           </Link>
           <p className="mt-2 text-sm text-muted">
-            Applications mobiles & intelligence artificielle sur mesure.
+            Développement d'applications mobiles iOS & Android et intégration IA.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function Footer() {
 
       <Container className="border-t border-border py-6">
         <p className="text-center text-xs text-muted">
-          © {year} Flutter AI Agency. Tous droits réservés.
+          © {year} Atlas — Développement Mobile. Tous droits réservés.
         </p>
       </Container>
     </footer>
